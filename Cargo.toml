@@ -1,0 +1,13 @@
+# Cargo.toml
+
+[package]
+name    = "fft"
+version = "0.1.0"
+edition = "2024"
+
+# Sin dependencias externas — stdlib pura
+[dependencies]
+
+# Compilar con optimizaciones para DSP
+[profile.release]
+opt-level = 3
